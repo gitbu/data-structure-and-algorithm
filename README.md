@@ -8,16 +8,17 @@
 
 > 二叉树
 
-| 题号   | 难易程度 | 题目链接                                     | 答案链接                                     | 是否完成 |      |
-| ---- | ---- | ---------------------------------------- | ---------------------------------------- | ---- | ---- |
-| 1    | 中等   | [前序遍历](https://leetcode-cn.com/problems/binary-tree-preorder-traversal/) | [binary-tree-preorder-traversal](./src/leetcode_1/binaryTreePreorderTraversal.js) | ✅    |      |
-| 1    | 中等   | [中序遍历](https://leetcode-cn.com/problems/binary-tree-preorder-traversal/) | [binary-tree-inorder-traversal](./src/leetcode_1/binaryTreeInorderTraversal.js) | ✅    |      |
-| 1    | 中等   | [后序遍历](https://leetcode-cn.com/problems/binary-tree-postorder-traversal/) | [binary-tree-postorder-traversal](./src/leetcode_1/binaryTreePreorderTraversal.js) | ✅    |      |
+| 难易程度 | 题目链接                                     | 答案链接                                     | 是否完成 |
+| ---- | ---------------------------------------- | ---------------------------------------- | ---- |
+| 中等   | [前序遍历](https://leetcode-cn.com/problems/binary-tree-preorder-traversal/) | [binary-tree-preorder-traversal](./src/binaryTree/binaryTreePreorderTraversal.js) | ✅    |
+| 中等   | [中序遍历](https://leetcode-cn.com/problems/binary-tree-preorder-traversal/) | [binary-tree-inorder-traversal](./src/binaryTree/binaryTreeInorderTraversal.js) | ✅    |
+| 中等   | [后序遍历](https://leetcode-cn.com/problems/binary-tree-postorder-traversal/) | [binary-tree-postorder-traversal](./src/binaryTree/binaryTreePreorderTraversal.js) | ✅    |
 
 > 堆
 
-| 题号   | 难易程度 | 题目链接   | 答案链接                                     | 是否完成 |      |
-| ---- | ---- | ------ | ---------------------------------------- | ---- | ---- |
-| 1    | 中等   | 自上而下建堆 | [from-down-to-up-buildHeap](./src/Heap/from-down-to-up-buildHeap.js) | ✅    |      |
-| 1    | 中等   | 自下而上建堆 | [from-up-to-down-buildHeap](./src/Heap/from-up-to-down-buildHeap.js) | ✅    |      |
+| 难易程度 | 题目链接                                     | 答案链接                                     | 是否完成 |
+| ---- | ---------------------------------------- | ---------------------------------------- | ---- |
+| 中等   | --                                       | [自下而上](./src/Heap/from-down-to-up-buildHeap.js) | ✅    |
+| 中等   | --                                       | [自上而下](./src/Heap/from-up-to-down-buildHeap.js) | ✅    |
+| 中等   | [前 K 个高频元素](https://leetcode-cn.com/problems/top-k-frequent-elements/) | [topK](./src/Heap/TopK.js)               | ✅    |
 
