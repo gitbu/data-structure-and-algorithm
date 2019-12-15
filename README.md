@@ -20,5 +20,11 @@
 | ---- | ---------------------------------------- | ---------------------------------------- | ---- |
 | 中等   | --                                       | [自下而上](./src/Heap/from-down-to-up-buildHeap.js) | ✅    |
 | 中等   | --                                       | [自上而下](./src/Heap/from-up-to-down-buildHeap.js) | ✅    |
-| 中等   | [前 K 个高频元素](https://leetcode-cn.com/problems/top-k-frequent-elements/) | [topK](./src/Heap/TopK.js)               | ✅    |
+| 中等中等 | [前 K 个高频元素](https://leetcode-cn.com/problems/top-k-frequent-elements/) | [topK](./src/Heap/TopK.js)               | ✅    |
+
+> 深度优先搜索
+
+| 难易程度 | 题目链接                                     | 答案链接                                     | 是否完成 |
+| ---- | ---------------------------------------- | ---------------------------------------- | ---- |
+| 简单   | [N叉树的最大深度](https://leetcode-cn.com/problems/maximum-depth-of-n-ary-tree/) | [maximum-depth-of-n-ary-tree](./src/Search/maximum-depth-of-n-ary-tree.js) | ✅    |
 
