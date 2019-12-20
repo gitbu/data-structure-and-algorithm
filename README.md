@@ -22,7 +22,7 @@
 | 中等   | --                                       | [自上而下](./src/Heap/from-up-to-down-buildHeap.js) | ✅    |
 | 中等中等 | [前 K 个高频元素](https://leetcode-cn.com/problems/top-k-frequent-elements/) | [topK](./src/Heap/TopK.js)               | ✅    |
 
-> 深度优先搜索
+> 深度优先和广度搜索
 
 | 难易程度 | 题目链接                                     | 答案链接                                     | 是否完成 |
 | ---- | ---------------------------------------- | ---------------------------------------- | ---- |

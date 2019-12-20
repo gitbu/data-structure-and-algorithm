@@ -36,3 +36,26 @@ var maxDepth = function(root) {
 
   return depth;
 };
+
+/**
+ * @desc 这个是应用深度优先做的
+ * @param {*} root 
+ */
+var maxDepth = function(root) {
+  // 如果节点是空的，那么就算没有节点
+  if (!root) return 0;
+  // 如果当前节点不是空的,但子节点为空，那么说明只有一个节点
+  if (Array.isArray(root.children) && root.children.length) return 1;
+
+  // 存储当前节点的的所有儿子节点的节点深度
+  const depths = [];
+  for( let i = 0, len = root.children.length; i < len; i++) {
+    depths.push(maxDepth(root.children[i]))
+  }
+
+  // 返回最大深度
+  const curMaxDep = Math.max(...depths);
+
+  return curMaxDep + 1;
+};
+
